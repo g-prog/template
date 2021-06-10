@@ -2,6 +2,7 @@ import Topbar from "./components/topbar/topbar";
 import Intro from "./components/intro/intro";
 import Expone from "./components/expone/expone";
 import Testone from "./components/testone/testone";
+import Exptwo from "./components/exptwo/exptwo";
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <Intro/>
       <Expone/>
       <Testone/>
+      <Exptwo/>
 
 
       

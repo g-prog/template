@@ -5,6 +5,8 @@ import Testone from "./components/testone/testone";
 import Exptwo from "./components/exptwo/exptwo";
 import Testtwo from "./components/testtwo/testtwo";
 import Subscribe from "./components/subscribe/subscribe";
+import Substwo from "./components/substwo/substwo";
+import Footer from "./components/footer/footer";
 
 
 
@@ -25,6 +27,10 @@ function App() {
       <Exptwo/>
       <Testtwo/>
       <Subscribe/>
+      <Substwo/>
+      <Footer/>
+
+
 
 
       

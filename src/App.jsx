@@ -1,6 +1,8 @@
 import Topbar from "./components/topbar/topbar";
 import Intro from "./components/intro/intro";
 import Expone from "./components/expone/expone";
+import Testone from "./components/testone/testone";
+
 
 
 
@@ -16,6 +18,7 @@ function App() {
       <div className="sections">
       <Intro/>
       <Expone/>
+      <Testone/>
 
 
       

@@ -4,6 +4,7 @@ import Expone from "./components/expone/expone";
 import Testone from "./components/testone/testone";
 import Exptwo from "./components/exptwo/exptwo";
 import Testtwo from "./components/testtwo/testtwo";
+import Subscribe from "./components/subscribe/subscribe";
 
 
 
@@ -23,6 +24,7 @@ function App() {
       <Testone/>
       <Exptwo/>
       <Testtwo/>
+      <Subscribe/>
 
 
       

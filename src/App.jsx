@@ -1,10 +1,29 @@
+import Topbar from "./components/topbar/topbar";
+import Intro from "./components/intro/intro";
+import Expone from "./components/expone/expone";
 
+
+
+
+
+import "./app.scss"
 
 function App() {
   return (
-    <div className="App">
-      blah
-        
+    <div className="app">
+      
+      <Topbar/>
+      <div className="sections">
+      <Intro/>
+      <Expone/>
+
+
+      
+      
+
+      </div>
+      
+      
 
 
      

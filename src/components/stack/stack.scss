@@ -1,0 +1,49 @@
+@import "../../global.scss";
+
+.stack{
+    background-color: white;
+
+
+    nav{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 20px 1%;
+
+        @include mobile{
+            display: none ;
+            
+        }
+        
+        
+    }
+    
+    .navlinks li{
+        display: inline-block;
+        padding: 0px 20px;
+
+
+        @include mobile{
+            display: none ;
+            
+        }
+    
+    }
+
+    .line{
+        color:gray;
+
+        @include mobile{
+            display: none;
+            
+        }
+
+    
+        
+    }
+
+
+
+
+}
+

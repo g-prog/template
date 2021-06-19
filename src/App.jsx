@@ -7,12 +7,8 @@ import Testtwo from "./components/testtwo/testtwo";
 import Subscribe from "./components/subscribe/subscribe";
 import Substwo from "./components/substwo/substwo";
 import Footer from "./components/footer/footer";
-
-
-
-
-
-
+import Stack from "./components/stack/stack";
+import Trial from "./components/trial/trial"
 import "./app.scss"
 
 function App() {
@@ -20,7 +16,10 @@ function App() {
     <div className="app">
       
       <Topbar/>
+      <Stack/>
+      
       <div className="sections">
+      
       <Intro/>
       <Expone/>
       <Testone/>
@@ -29,6 +28,7 @@ function App() {
       <Subscribe/>
       <Substwo/>
       <Footer/>
+      <Trial/>
 
 
 

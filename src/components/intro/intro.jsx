@@ -3,8 +3,10 @@ import "./intro.scss"
 export default function intro() {
     return (
         <div className="intro">
-            <hr className="line"></hr>
-                <nav>
+            
+            <div className="nav">
+                <hr className="line"></hr>
+                    <nav>
                         <ul className="navlinks">
                             <li><a href="#intro">MARKETPLACE</a></li>
                             <li><a href="#intro">WHOLESALE CENTER</a></li>
@@ -17,6 +19,11 @@ export default function intro() {
                     </nav>
 
                 <hr className="line"></hr>
+
+            </div>
+                
+
+                
 
             
                 <div className="container">
@@ -34,7 +41,7 @@ export default function intro() {
                        </div>
                         <div className="right">
                             <div className="imageContainer">
-                                <img src="assets/smiling.png" alt="cartoon"/>
+                                <img src="assets/woman.png" alt="smiling man"/>
                             </div>
                         </div>
             

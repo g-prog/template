@@ -1,0 +1,70 @@
+@import "../../global.scss";
+
+
+
+.trial{
+    background-color:black;
+    
+    
+    
+
+    
+
+
+
+    .left{
+        display: flex;
+        flex: 3.5;
+        justify-content: space-around;
+        margin: 20px 20px;
+        flex-direction: row;
+
+        @include mobile{
+            flex-direction: column;
+            align-items: center;
+            margin: 0%;
+            flex: 5;
+        }
+        
+        
+
+        
+
+        
+        .company{
+            height: 600px;
+            h1,p{
+                color: white;
+            }
+        }
+
+        .products{
+            height: 900px;
+            
+            
+            
+            h1,p{
+                color: white;   
+            }
+
+            @include mobile{
+                margin-top: 2%;
+                overflow-y: hidden;
+            }
+
+            
+            
+        }
+        
+        
+
+        
+
+       
+
+    }
+
+    
+        
+
+}

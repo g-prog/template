@@ -196,13 +196,13 @@
             
             
             @include mobile{
-                padding-top: 0%;
+                padding-left: 10px;
                 margin-top: 0%;
                 height: 90%;
             }
 
             @include iphone8{
-                padding-top: 0%;
+                padding-left: 10px;
                 margin-top: 0%;
                 height: 90%;
             }

@@ -12,6 +12,14 @@
         flex-direction: column;  
         align-items: center;
         justify-content: center;
+        margin-top: 50px;
+    }
+
+    @include mobile{
+        flex-direction: column;  
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
     }
     .card1,.card2, .card3{
         img{

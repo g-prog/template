@@ -193,6 +193,34 @@
         }
 
         .text{
+
+            .remaining{
+                p{
+                    @include mobile{
+                        font-size: 12px;
+                        
+                    }
+    
+                    @include iphone8{
+                        font-size: 12px;
+                        
+                    }
+                    
+                }
+
+            }
+            p{
+                @include mobile{
+                    font-size: 12px;
+                    
+                }
+
+                @include iphone8{
+                    font-size: 12px;
+                    
+                }
+                
+            }
             
             
             @include mobile{

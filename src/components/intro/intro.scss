@@ -119,12 +119,12 @@ nav{
                     height: 450px;
 
                     @include mobile{
-                        height: 150px;
+                        height: 250px;
                         
                     }
 
                     @include iphone8{
-                        height: 150px;
+                        height: 250px;
                         
                     }
                 }

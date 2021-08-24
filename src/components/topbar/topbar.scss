@@ -1,4 +1,4 @@
-
+@import "../../global.scss";
 .topbar{
     width:100%;
     height: 70px;
@@ -17,6 +17,19 @@ header{
     align-items: center;
     padding: 18px 10%;
     
+}
+
+nav{
+    @include mobile{
+        display: none;
+        
+    }
+
+    @include iphone8{
+        display: none;
+        
+    }
+
 }
 
 

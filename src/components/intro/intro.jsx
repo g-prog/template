@@ -3,7 +3,6 @@ import "./intro.scss"
 export default function intro() {
     return (
         <div className="intro">
-            
             <div className="nav">
                 <hr className="line"></hr>
                     <nav>
@@ -49,7 +48,6 @@ export default function intro() {
 
                 </div>
 
-            
         </div>
     )
 }

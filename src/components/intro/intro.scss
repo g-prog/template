@@ -5,32 +5,23 @@
     overflow-y: hidden;
 
 
+    .line{
+        color:gray;
     
-    @include mobile{
-        flex-direction: column;
-        align-items: center;
+        @include mobile{
+            display: none;
+            
+        }
+    
+        @include iphone8{
+            display: none;
+            
+        }
+    
+        
     }
-      
-}
-
-nav{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 20px 1%;
 
     
-
-
-    
-    
-    
-    
-
-    
-    
-    
-}
 
 .navlinks li{
     display: inline-block;
@@ -40,108 +31,106 @@ nav{
         display: none;
         
     }
-
-   
-
-}
-
-.line{
-    color:gray;
-
-    @include mobile{
+    @include iphone8{
         display: none;
         
     }
+}
 
-
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 1%;   
     
 }
 
 
 
-.container{
-    background-color:white;
-    color: black;
     
-
-    .left{
-        flex: 0.5;
-        overflow-y: hidden;
+    
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
 
         @include mobile{
-            padding-top: 140px;
-            
-            
-        
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        @include iphone8{
+            flex-direction: column;
+            align-items: center;
         }
 
-        .wrapper{
-            float: left;
-           
-            
-           .content {
-               
-               position: absolute;
-               margin-top: 28%;
-               @include mobile{
-                margin-top: 10%;
-                
-                
-            
-            }
-               
-               p,h1{
-                   line-height: 1.8;
+        .left{
+            flex: 0.5;
 
-                   
+            .wrapper{
+                .content{
+                    p,h1{
+                        line-height: 1.8;
+
+                        @include mobile{
+                            line-height: 1.4;
+                            
+                        }
+
+                        @include iphone8{
+                            line-height: 1.4;
+                            
+                        }
+
+                        
+                     
+                    }
         
+                    
+                }
+    
                 
-               }
-               
-               
-           }
-            
-           
-            
+            }
+
             
         }
-    }
-    .right{
-        flex: 0.5;
-        overflow-y: hidden;
 
-        .imageContainer{
-            width: 600px;
-            height:600px;
-            background-color: peru;
-            position: relative;
-            overflow-y: hidden;
-            border-radius: 900px;
-            display: flex;
-            align-items: flex-start;
-            justify-content: center;
-            float: right;
-
-            @include mobile{
-                display: none;
-                
-                
-                
-            
-            }
-
-            img{
-                width: 70%;
-                height: 80%;
-                position: absolute;
+        .right{
+            flex: 0.5;
+            .imageContainer{
+                float: right;
+                background-color: peru;
+                border-radius: 50%;
+                margin-top: 40px;
 
                 @include mobile{
-                    height: 10%;
-                    width: 10%;
                     
-                
+                    margin-top: 10px;
+                    
+                }
+
+                @include iphone8{
+                    
+                    margin-top: 10px;
+                    
+                }
+                img{
+                    height: 450px;
+
+                    @include mobile{
+                        height: 350px;
+                        
+                    }
+
+                    @include iphone8{
+                        height: 350px;
+                        
+                    }
                 }
             }
         }
     }
+
+    
 }

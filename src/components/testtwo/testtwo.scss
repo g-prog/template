@@ -19,6 +19,16 @@
         
         
     }
+
+    @include iphone8{
+        flex-direction:column;
+        align-items: flex-start;
+        
+        
+        
+        
+        
+    }
    
 
 
@@ -27,6 +37,14 @@
         overflow-y: hidden;
 
         @include mobile{
+            flex:0.5;
+            top: 0;
+            display: none;
+            
+            
+        }
+
+        @include iphone8{
             flex:0.5;
             top: 0;
             display: none;
@@ -69,6 +87,12 @@
             
         }
 
+        @include iphone8{
+            flex:0.5;
+            
+            
+        }
+
        
     
         .wrapper{
@@ -79,6 +103,12 @@
 
 
             @include mobile{
+                padding: 0%;
+                
+                
+            }
+
+            @include iphone8{
                 padding: 0%;
                 
                 
@@ -114,9 +144,11 @@
 
                 .share{
                     margin-top: 50px;
-                    hr{
-                        width: 80%;
-                        color: orange;
+                    
+                    hr,h3{
+                        width: 75%;
+                        color: white;
+                        margin-left: 45px;
                     }
                 }
             }

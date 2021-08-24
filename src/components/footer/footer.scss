@@ -8,6 +8,11 @@
         flex-direction: column;
         align-items: center;
     }
+
+    @include iphone8{
+        flex-direction: column;
+        align-items: center;
+    }
       
 
 
@@ -19,6 +24,12 @@
             overflow-y: hidden;
             
         }
+
+        @include iphone8{
+            overflow-y: hidden;
+            
+        }
+        
         
 
         img{
@@ -27,6 +38,14 @@
         }
 
         @include mobile{
+            width: 500px;
+            height: 300px;
+            
+            
+            
+        }
+
+        @include iphone8{
             width: 500px;
             height: 300px;
             

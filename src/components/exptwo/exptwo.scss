@@ -19,17 +19,32 @@
     .card1,.card2, .card3{
 
         @include mobile{
-            margin: 100px 10px;
-            
-           
-            
+            margin-top: 57px;  
+            overflow-y: hidden;
         }
 
+        @include iphone8{
+            margin-top: 57px; 
+            overflow-y: hidden; 
+        }
+        
 
         img{
             width: 200px;
             height: 200px;
             border-radius: 50%;
+
+            @include mobile{
+                width: 50px; 
+                height: 50px; 
+                border-radius: 50%;
+            }
+
+            @include iphone8{
+                width: 50px; 
+                height: 50px; 
+                border-radius: 50%;
+            }
         }
     }
 

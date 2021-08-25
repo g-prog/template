@@ -23,7 +23,7 @@
     }
     .card1,.card2, .card3{
         @include mobile{
-            margin-top: 17px;  
+            margin-top: 57px;  
         }
 
         @include iphone8{

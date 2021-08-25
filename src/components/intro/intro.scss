@@ -17,6 +17,11 @@
             display: none;
             
         }
+
+        @include tablet{
+            display: none;
+            
+        }
     
         
     }
@@ -32,6 +37,11 @@
         
     }
     @include iphone8{
+        display: none;
+        
+    }
+
+    @include tablet{
         display: none;
         
     }
@@ -65,8 +75,11 @@ nav{
             align-items: center;
         }
 
+       
+
         .left{
             flex: 0.5;
+            margin-top: 2px;
 
             .wrapper{
                 .content{
@@ -80,6 +93,11 @@ nav{
 
                         @include iphone8{
                             line-height: 1.4;
+                            
+                        }
+
+                        @include tablet{
+                            line-height: 1.1;
                             
                         }
 
@@ -115,6 +133,12 @@ nav{
                     margin-top: 5px;
                     
                 }
+
+                @include tablet{
+                    
+                    margin-top: 5px;
+                    
+                }
                 img{
                     height: 450px;
 
@@ -124,6 +148,11 @@ nav{
                     }
 
                     @include iphone8{
+                        height: 250px;
+                        
+                    }
+
+                    @include tablet{
                         height: 250px;
                         
                     }

@@ -14,6 +14,11 @@
         align-items: center;
     }
 
+    @include tablet{
+        flex-direction: column;
+        align-items: center;
+    }
+
 
 
     .left{
@@ -26,6 +31,10 @@
                 
         }
         @include iphone8{
+            text-align: center;  
+        }
+
+        @include tablet{
             text-align: center;  
         }
         .imageContainer{
@@ -53,6 +62,17 @@
             }
 
             @include iphone8{
+                align-items: flex-end;
+                overflow-y: hidden;
+                background-color: gray;
+                text-align:center;
+                float: left;
+                justify-content: center;
+                border-radius: 70%;
+                margin-right: 0px;
+            }
+
+            @include tablet{
                 align-items: flex-end;
                 overflow-y: hidden;
                 background-color: gray;
@@ -97,6 +117,16 @@
                 
                 
             }
+
+            @include tablet{
+                width: 300px;
+                height: 300px;
+                
+                text-align: center;
+                
+                
+                
+            }
         }
 
         
@@ -128,7 +158,15 @@
             margin-left: 60px;
              
               
-     }
+        }
+
+        @include tablet{
+            justify-content: center;
+            align-items: center;
+            margin-left: 60px;
+             
+              
+        }
            
         }
         
@@ -164,6 +202,18 @@
             float: left;
             overflow-y: hidden;
         }
+
+        @include tablet{
+            align-items: flex-start;
+            padding-top: 0%;
+            overflow-y: hidden;
+            margin-left: 0px;  
+            margin-right: 0px;
+            padding-top: 0px;
+            margin-top: 0px;
+            float: left;
+            overflow-y: hidden;
+        }
         .heading{
             @include mobile{
                 font-size: 0.7rem;
@@ -173,6 +223,13 @@
             }
 
             @include iphone8{
+                font-size: 0.7rem;
+                margin-top: 0%;
+                text-align: center;
+                 
+            }
+
+            @include tablet{
                 font-size: 0.7rem;
                 margin-top: 0%;
                 text-align: center;
@@ -205,6 +262,11 @@
                         font-size: 12px;
                         
                     }
+
+                    @include tablet{
+                        font-size: 12px;
+                        
+                    }
                     
                 }
 
@@ -219,6 +281,11 @@
                     font-size: 16px;
                     
                 }
+
+                @include tablet{
+                    font-size: 16px;
+                    
+                }
                 
             }
             
@@ -230,6 +297,12 @@
             }
 
             @include iphone8{
+                padding-left: 10px;
+                margin-top: 0%;
+                height: 90%;
+            }
+
+            @include tablet{
                 padding-left: 10px;
                 margin-top: 0%;
                 height: 90%;
@@ -253,6 +326,10 @@
                 display: none;     
             }
 
+            @include tablet{
+                display: none;     
+            }
+
         }
        
         
@@ -269,7 +346,7 @@
             margin-top: 5px;
             text-align: center;
    
-         }
+        }
            margin-top: 20px;
            hr{
                 width: 45%;
@@ -278,12 +355,17 @@
                 @include mobile{
                    display: none;
            
-                 }
+                }
 
                  @include iphone8{
                     display: none;
             
-                  }
+                }
+
+                @include tablet{
+                    display: none;
+            
+                 }
            }
            h3{
                color: white;
@@ -294,6 +376,11 @@
              }
 
              @include iphone8{
+                color: orange;
+                
+       
+             }
+             @include tablet{
                 color: orange;
                 
        
@@ -310,6 +397,11 @@
    
          }
 
+         @include tablet{
+            display: none;
+   
+         }
+
       }
 
         p{
@@ -320,6 +412,11 @@
       
             }
             @include iphone8{
+                line-height: 1.3;
+       
+             }
+
+             @include tablet{
                 line-height: 1.3;
        
              }

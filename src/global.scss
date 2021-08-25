@@ -1,8 +1,17 @@
 $width: 360px;
 $width2: 375px;
+$width3: 768px;
 
 @mixin mobile {
     @media (max-width: #{$width}) {
+        @content
+        
+    }
+    
+}
+
+@mixin tablet {
+    @media (max-width: #{$width3}) {
         @content
         
     }

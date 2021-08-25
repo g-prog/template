@@ -7,6 +7,13 @@
     justify-content: space-evenly;
     
     flex-direction: row;
+    @include mobile{
+        height: 200%;  
+    }
+
+    @include iphone8{
+        height: 200%;  
+    }
 
     @include iphone8{
         flex-direction: column;  

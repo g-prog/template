@@ -7,7 +7,16 @@
     justify-content: space-evenly;
     
     flex-direction: row;
-    
+    .card2{
+        @include mobile{
+            display: none;  
+        }
+
+        @include iphone8{
+            display: none;  
+        }
+
+    }
 
     @include iphone8{
         flex-direction: column;  

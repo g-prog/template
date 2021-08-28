@@ -83,27 +83,56 @@ nav{
 
             .wrapper{
                 .content{
-                    p,h1{
+                    p{
                         line-height: 1.8;
 
                         @include mobile{
-                            line-height: 1.4;
+                            line-height: 1.6;
+                            font-size: 10px;
                             
                         }
 
                         @include iphone8{
-                            line-height: 1.4;
+                            line-height: 1.6;
+                            font-size: 10px;
                             
                         }
 
                         @include tablet{
-                            line-height: 1.1;
+                            line-height: 1.6;
+                            font-size: 10px;
+
                             
                         }
 
                         
                      
                     }
+
+                    h1{
+                        line-height: 1.8;
+
+                        @include mobile{
+                            line-height: 1.6;
+                            font-size: 20px;
+                            
+                        }
+
+                        @include iphone8{
+                            line-height: 1.6;
+                            font-size: 20px;
+                            
+                        }
+
+                        @include tablet{
+                            line-height: 1.6;
+                            
+                        }
+
+                        
+                     
+                    }
+        
         
                     
                 }

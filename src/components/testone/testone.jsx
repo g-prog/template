@@ -54,7 +54,7 @@ export default function testone() {
 
                         </div>
                         <div className="words">
-                            <p>I had the best</p>
+                            <p>I had the best experoence shopping with vasiti and I will come back</p>
                             <p>I had the best</p>
                             <p>I had the best </p>
                         </div>

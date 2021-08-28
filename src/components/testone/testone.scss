@@ -86,11 +86,7 @@
             width: 100px;
         }
         
-        p,h3{
-            margin: auto;
-            width: 50%;
-            padding: 10px;
-        }
+        
         .location{
             display: flex;
             
@@ -127,9 +123,9 @@
         }
 
         .words{
-            
             p{
                 text-align: justify;
+                font-size: 0.6rem;
                 
             }
         }

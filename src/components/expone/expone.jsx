@@ -26,7 +26,7 @@ export default function expone() {
                                     I had the best experience shopping with vasiti.
                                     
                                 </p>
-                                <p>Usability of the website was great, very good customer service and all-round great experience.
+                                <p>Usability of the website was great, great customer service and all-round great experience.
                                     <p>I would definitely be coming back!</p>
                                     
                                 </p>

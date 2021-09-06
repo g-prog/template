@@ -1,10 +1,6 @@
 @import "../../global.scss";
 .begin{
     background-color: white;
-    
-    
-    
-
     .cards{
         display: flex;
         justify-content: space-evenly;
@@ -114,9 +110,6 @@
                 }
 
             }
-           
-           
-            
             
             
             .location{
@@ -165,13 +158,12 @@
                         @include tablet{
                             width: 50px;  
                         }
-    
-        
+
                         p{
                             @include iphone8{
                                 font-size: 7px;  
                             }
-        
+
                             @include tablet{
                                 font-size: 7px;  
                             }

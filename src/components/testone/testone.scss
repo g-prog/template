@@ -1,9 +1,6 @@
 @import "../../global.scss";
 .works{
     background-color: white;
-    
-    
-    
 
     .cards{
         display: flex;
@@ -12,7 +9,6 @@
         margin-top: 40px;
         flex-direction: row;
 
-       
         .card2{
             @include mobile{
                 display: none;  
@@ -107,25 +103,18 @@
                     font-size: 14px; 
                     margin-left: 100px;
                 }
-
                 @include iphone8{
                     font-size: 14px; 
                     margin-left: 100px;
                 }
 
             }
-           
-           
-            
-            
-            
             .location{
                 display: flex;
                 margin-top: 20px;
                 @include mobile{ 
                     margin-top: 0px;
                 }
-
                 .left{
                     width: 100px;
                     @include mobile{
@@ -181,11 +170,8 @@
         
                        
                     }
-                    
-        
-                    
+    
                 }
-                
             }
             
     

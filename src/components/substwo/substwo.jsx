@@ -10,7 +10,7 @@ export default function substwo() {
 
                     </div>
                     <div className="content">
-                        <h3>Joseph Ike</h3>
+                        <h3>Luke Victorious</h3>
                         <div className="location">
                             <div className="left">
                                 <p>Ikeja</p>
@@ -25,9 +25,8 @@ export default function substwo() {
 
                         </div>
                         <div className="words">
-                            <p>I had the best</p>
-                            <p>I had the best</p>
-                            <p>I had the best </p>
+                            <p>I will definitely refer a lot of my vendor friends and customers alike.</p>
+                           
                             
                         </div>
                        
@@ -39,7 +38,7 @@ export default function substwo() {
 
                     </div>
                     <div className="content">
-                        <h3>Joseph Ike</h3>
+                        <h3>Abiodun Benjamin</h3>
                         <div className="location">
                             <div className="left">
                                 <p>Ikeja</p>
@@ -54,9 +53,8 @@ export default function substwo() {
 
                         </div>
                         <div className="words">
-                            <p>I had the best</p>
-                            <p>I had the best</p>
-                            <p>I had the best </p>
+                            <p>Defiitely had the coolest experience ever.</p>
+                            
                             
                         </div>
                        
@@ -69,7 +67,7 @@ export default function substwo() {
 
                     </div>
                     <div className="content">
-                        <h3>Joseph Ike</h3>
+                        <h3>Fausat Balogun</h3>
                         <div className="location">
                             <div className="left">
                                 <p>Ikeja</p>
@@ -85,9 +83,8 @@ export default function substwo() {
                         </div>
                         <div className="words">
                             <div className="center">
-                                <p>I had the best</p>
-                                <p>I had the best</p>
-                                <p>I had the best </p>
+                                <p>This site has pushed my business up by several notches.</p>
+                                
                                     
 
                             </div>

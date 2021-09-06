@@ -10,7 +10,7 @@ export default function subscribe() {
 
                     </div>
                     <div className="content">
-                        <h3>Joseph Ike</h3>
+                        <h3>Victoria Joseph</h3>
                         <div className="location">
                             <div className="left">
                                 <p>Ikeja</p>
@@ -25,9 +25,8 @@ export default function subscribe() {
 
                         </div>
                         <div className="words">
-                            <p>I had the best</p>
-                            <p>I had the best</p>
-                            <p>I had the best </p>
+                            <p>Very easy, fun and exciting experience.</p>
+                            
                             
                         </div>
                        
@@ -39,7 +38,7 @@ export default function subscribe() {
 
                     </div>
                     <div className="content">
-                        <h3>Joseph Ike</h3>
+                        <h3>Lucia Linda</h3>
                         <div className="location">
                             <div className="left">
                                 <p>Ikeja</p>
@@ -54,9 +53,8 @@ export default function subscribe() {
 
                         </div>
                         <div className="words">
-                            <p>I had the best</p>
-                            <p>I had the best</p>
-                            <p>I had the best </p>
+                            <p>I have definitely found my cosmetics pilg. You guys rock.</p>
+                            
                             
                         </div>
                        
@@ -69,7 +67,7 @@ export default function subscribe() {
 
                     </div>
                     <div className="content">
-                        <h3>Joseph Ike</h3>
+                        <h3>Abiodun Tayo</h3>
                         <div className="location">
                             <div className="left">
                                 <p>Ikeja</p>
@@ -85,9 +83,8 @@ export default function subscribe() {
                         </div>
                         <div className="words">
                             <div className="center">
-                                <p>I had the best</p>
-                                <p>I had the best</p>
-                                <p>I had the best </p>
+                                <p>Honestly, I am short of words. Thank you for your wonderful work.</p>
+                               
                                     
 
                             </div>

@@ -10,7 +10,7 @@ export default function exptwo() {
 
                     </div>
                     <div className="content">
-                        <h3>Joseph Ike</h3>
+                        <h3>Bernice Blessing</h3>
                         <div className="location">
                             <div className="left">
                                 <p>Ikeja</p>
@@ -25,9 +25,7 @@ export default function exptwo() {
 
                         </div>
                         <div className="words">
-                            <p>I had the best</p>
-                            <p>I had the best</p>
-                            <p>I had the best </p>
+                            <p>I really like how easy and very functional the website is.</p>
                             
                         </div>
                        
@@ -39,7 +37,7 @@ export default function exptwo() {
 
                     </div>
                     <div className="content">
-                        <h3>Joseph Ike</h3>
+                        <h3>Okoro Sheyfunmi</h3>
                         <div className="location">
                             <div className="left">
                                 <p>Ikeja</p>
@@ -54,9 +52,8 @@ export default function exptwo() {
 
                         </div>
                         <div className="words">
-                            <p>I had the best</p>
-                            <p>I had the best</p>
-                            <p>I had the best </p>
+                            <p>I like the awesome quality of their products and services.</p>
+                            
                             
                         </div>
                        
@@ -69,7 +66,7 @@ export default function exptwo() {
 
                     </div>
                     <div className="content">
-                        <h3>Joseph Ike</h3>
+                        <h3>Lai Mohammed-Bana</h3>
                         <div className="location">
                             <div className="left">
                                 <p>Ikeja</p>
@@ -85,10 +82,7 @@ export default function exptwo() {
                         </div>
                         <div className="words">
                             <div className="center">
-                                <p>I had the best</p>
-                                <p>I had the best</p>
-                                <p>I had the best </p>
-                                    
+                                <p>Definitely going to be the next big thing in Africa.</p>
 
                             </div>
                             

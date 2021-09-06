@@ -10,7 +10,7 @@ export default function testone() {
 
                     </div>
                     <div className="content">
-                        <h3>Joseph Ike</h3>
+                        <h3>Nnamdi Ike</h3>
                         <div className="location">
                             <div className="left">
                                 <p>Ikeja</p>
@@ -25,9 +25,8 @@ export default function testone() {
 
                         </div>
                         <div className="words">
-                            <p>I had the best</p>
-                            <p>I had the best</p>
-                            <p>I had the best </p>
+                            <p>I had the best experience shopping with Vasiti, awesome website and great customer service</p>
+                            
                             
                         </div>
                        
@@ -39,7 +38,7 @@ export default function testone() {
 
                     </div>
                     <div className="content">
-                        <h3>Joseph Ike</h3>
+                        <h3>Anita Nwosu</h3>
                         <div className="location">
                             <div className="left">
                                 <p>Ikeja</p>
@@ -54,9 +53,8 @@ export default function testone() {
 
                         </div>
                         <div className="words">
-                            <p>I had the best experoence shopping with vasiti and I will come back</p>
-                            <p>I had the best</p>
-                            <p>I had the best </p>
+                            <p>Customer rapport is next to none, fast delivery and reliable payment.</p>
+                            
                         </div>
                        
                     </div>
@@ -68,7 +66,7 @@ export default function testone() {
 
                     </div>
                     <div className="content">
-                        <h3>Joseph Ike</h3>
+                        <h3>David Oyedele</h3>
                         <div className="location">
                             <div className="left">
                                 <p>Ikeja</p>
@@ -83,9 +81,8 @@ export default function testone() {
 
                         </div>
                         <div className="words">
-                            <p>I had the best</p>
-                            <p>I had the best</p>
-                            <p>I had the best </p>
+                            <p>Great services, proactive, smooth and fast delivery. Awesome concept. </p>
+                            
                         </div>
                        
                     </div>

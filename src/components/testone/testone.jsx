@@ -10,7 +10,7 @@ export default function testone() {
 
                     </div>
                     <div className="content">
-                        <h3>Nnamdi Ike</h3>
+                        <h3>Nnamdi Ikechukwu</h3>
                         <div className="location">
                             <div className="left">
                                 <p>Ikeja</p>

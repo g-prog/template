@@ -2,17 +2,12 @@
 .end{
     background-color: white;
     
-    
-    
-
     .cards{
         display: flex;
         justify-content: space-evenly;
         margin-left: 90px;
         margin-top: 40px;
         flex-direction: row;
-
-       
         .card2{
             @include mobile{
                 display: none;  

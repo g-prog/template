@@ -355,7 +355,13 @@
         @include mobile{
             margin-top: 5px;
             text-align: center;
-            margin-left: 40px;
+            margin-left: 20px;
+   
+        }
+        @include iphone8{
+            margin-top: 5px;
+            text-align: center;
+            margin-left: 20px;
    
         }
            margin-top: 20px;

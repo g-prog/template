@@ -124,10 +124,12 @@
                     @include mobile{
                         width: 90px;  
                         margin-left: 70px;
+                        margin-top: 5px;
                     }
                     @include iphone8{
                         width: 90px; 
                         margin-left: 70px; 
+                        margin-top: 5px;
                     }
 
                     p{

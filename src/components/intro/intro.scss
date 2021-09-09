@@ -156,19 +156,22 @@ nav{
 
                 @include mobile{
                     
-                    margin-top: 5px;
+                    margin-top: 25px;
+                    padding: 20px;
                     
                 }
 
                 @include iphone8{
                     
-                    margin-top: 5px;
+                    margin-top: 25px;
+                    padding: 20px;
                     
                 }
 
                 @include tablet{
                     
-                    margin-top: 5px;
+                    margin-top: 25px;
+                    padding: 20px;
                     
                 }
                 img{
